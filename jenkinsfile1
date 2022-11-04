@@ -1,0 +1,10 @@
+peline {
+    stages{
+
+        stage{
+            steps{
+                git branch: 'main', url: 'https://github.com/manasaashok/demo-counter-app.git'
+            }
+        }
+    }
+}
